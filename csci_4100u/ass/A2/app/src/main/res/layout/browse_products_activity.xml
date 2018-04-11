@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sheron.csci4100u.ass.a2.BrowseProductsActivity">
+
+
+    <!-- Product counter number (not product id) -->
+    <!-- ################################################################## -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/tvCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"/>
+
+
+        <ProgressBar
+            android:id="@+id/pbBitcoinLoading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:indeterminate="true"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+    <!-- Product name -->
+    <!-- ################################################################## -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginEnd="20dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toStartOf="@id/etName"
+            android:layout_marginEnd="20dp"
+            android:labelFor="@id/etName"
+            android:text="@string/name"/>
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="5dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+    </RelativeLayout>
+
+
+    <!-- Product description -->
+    <!-- ################################################################## -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginEnd="20dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toStartOf="@id/etDescription"
+            android:layout_marginEnd="20dp"
+            android:labelFor="@id/etDescription"
+            android:text="@string/description"/>
+
+        <EditText
+            android:id="@+id/etDescription"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="5dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+    </RelativeLayout>
+
+
+    <!-- Product price in CAD -->
+    <!-- ################################################################## -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginEnd="20dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tvPriceCAD"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toStartOf="@id/etPriceCAD"
+            android:layout_marginEnd="20dp"
+            android:labelFor="@id/etPriceCAD"
+            android:text="@string/price_cad"/>
+
+        <EditText
+            android:id="@+id/etPriceCAD"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="5dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+    </RelativeLayout>
+
+
+    <!-- Product price in Bitcoin -->
+    <!-- ################################################################## -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginEnd="20dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tvPriceBit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toStartOf="@id/etPriceBit"
+            android:layout_marginEnd="20dp"
+            android:labelFor="@id/etPriceBit"
+            android:text="@string/price_bitcoin"/>
+
+        <EditText
+            android:id="@+id/etPriceBit"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="5dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+    </RelativeLayout>
+
+
+    <!-- Previous, Next, and Delete Buttons -->
+    <!-- ################################################################## -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:layout_margin="5dp"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        style="?buttonBarStyle">
+
+        <Button
+            android:id="@+id/btnPrevious"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:text="@string/previous"/>
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/delete"/>
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:text="@string/next"/>
+    </LinearLayout>
+</LinearLayout>

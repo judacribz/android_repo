@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">A2</string>
+    <string name="action_add_new_product">+Add New Product</string>
+    <string name="cad_to_bitcoin_url"><![CDATA[https://blockchain.info/tobtc?currency=CAD&value=]]></string>
+
+    <string name="previous">Prev</string>
+    <string name="delete">Delete</string>
+    <string name="next">Next</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="name"><b>Name:</b></string>
+    <string name="description"><b>Description:</b></string>
+    <string name="price_cad"><b>Price(CAD):</b></string>
+    <string name="price_bitcoin"><b>Price(Bitcoin):</b></string>
+    <string name="required">Required</string>
+    <string name="delete_all_products">Delete All Products</string>
+    <string name="internet_error">Error: Check if wifi/data is enabled.</string>
+</resources>
