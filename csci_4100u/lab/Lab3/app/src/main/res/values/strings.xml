@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Lab3</string>
+
+    <!-- Button labels -->
+    <string name="about_button">About</string>
+    <string name="login_button">Login</string>
+    <string name="finish_button">Finish</string>
+
+    <!-- Display text -->
+    <string name="greeting_text">
+        Welcome to the wonderful Lab 3 app created for the course CSCI 4100U where the intents will
+        be known.
+    </string>
+    <string name="about_text">
+        This application is my solution for lab #3 for CSCI 4100u.\n\n© 2017, Sheron Balasingam
+    </string>
+
+    <!-- Label text -->
+    <string name="username_label">Username</string>
+    <string name="password_label">Password</string>
+
+    <!-- Login result text -->
+    <string name="login_success">Login Success!</string>
+    <string name="login_fail">Login Incorrect!</string>
+</resources>

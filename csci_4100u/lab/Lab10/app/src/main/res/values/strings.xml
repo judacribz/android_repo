@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab10</string>
+    <string name="play">Play</string>
+    <string name="starman">"invincible_starman.mp3"</string>
+    <string name="stop">Stop</string>
+    <string name="mp4">mp4</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context="sheron.csci4100u.labs.lab5.ShowLicense">
+
+    <!-- Button to finish() ShowLicense Activity -->
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/close"
+        android:textColor="@color/grey"
+        android:onClick="closeActivity"/>
+
+
+    <!-- Displays fake company title-->
+    <TextView
+        android:id="@+id/tvLicenseTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:fontFamily="monospace"
+        android:text="@string/license"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40sp"/>
+
+
+
+    <!-- Displays downloaded license text -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnClose"
+        android:layout_below="@id/tvLicenseTitle"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/tvLicenseData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@color/colorPrimary"
+            android:textAlignment="center"
+            android:textColor="@color/grey"/>
+    </ScrollView>
+</RelativeLayout>

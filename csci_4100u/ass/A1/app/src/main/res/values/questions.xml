@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="questions_array">
+        <item>Are you happy?</item>
+        <item>Do you own a pet?</item>
+        <item>Do you like stripes?</item>
+        <item>Do you like football</item>
+        <item>Have you ever broken a bone?</item>
+        <item>Do you believe in God?</item>
+        <item>Do you like Sharpie markers?</item>
+    </string-array>
+</resources>

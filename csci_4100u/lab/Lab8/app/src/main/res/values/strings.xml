@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lab8</string>
+    <string name="address_1">Address 1:</string>
+    <string name="address_2">Address 2:</string>
+    <string name="locality">Locality:</string>
+    <string name="admin_area">Admin Area:</string>
+    <string name="country">Country:</string>
+    <string name="postal_code">Postal Code:</string>
+    <string name="url">URL:</string>
+    <string name="gps_rationale">GPS must be enabled to usea app</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

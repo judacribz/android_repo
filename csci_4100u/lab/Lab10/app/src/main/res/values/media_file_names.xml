@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="media_file_names">
+        <item>cha_la_head_cha_la.mp3</item>
+        <item>invincible_starman.mp3</item>
+        <item>metal_gear_solid_acid.mp3</item>
+        <item>first_day_in_mexico.mp4</item>
+    </string-array>
+</resources>

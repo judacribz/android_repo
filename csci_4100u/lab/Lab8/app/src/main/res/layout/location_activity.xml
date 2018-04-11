@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="5dp"
+    tools:context="sheron.csci4100u.labs.lab8.ShowLocation">
+
+
+    <!-- Address line 1 -->
+    <!-- ################################################################## -->
+    <LinearLayout
+        android:id="@+id/llAddress1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvAddress1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/address_1"/>
+
+        <EditText
+            android:id="@+id/etAddress1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+    </LinearLayout>
+
+
+    <!-- Adress line 2 -->
+    <!-- ################################################################## -->
+    <LinearLayout
+        android:id="@+id/llAddress2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/llAddress1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvAddress2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/address_2"/>
+
+        <EditText
+            android:id="@+id/etAddress2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+    </LinearLayout>
+
+
+    <!-- Locality (city) -->
+    <!-- ################################################################## -->
+    <LinearLayout
+        android:id="@+id/llLocality"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/llAddress2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvLocality"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/locality"/>
+
+        <EditText
+            android:id="@+id/etLocality"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+    </LinearLayout>
+
+
+    <!-- Admin Area (province) -->
+    <!-- ################################################################## -->
+    <LinearLayout
+        android:id="@+id/llAdminArea"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/llLocality"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvAdminArea"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/admin_area"/>
+
+        <EditText
+            android:id="@+id/etAdminArea"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+    </LinearLayout>
+
+
+    <!-- Country name -->
+    <!-- ################################################################## -->
+    <LinearLayout
+        android:id="@+id/llCountry"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/llAdminArea"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvCountry"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/country"/>
+
+        <EditText
+            android:id="@+id/etCountry"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+    </LinearLayout>
+
+
+    <!-- Postal code -->
+    <!-- ################################################################## -->
+    <LinearLayout
+        android:id="@+id/llPostalCode"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/llCountry"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvPostalCode"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/postal_code"/>
+
+        <EditText
+            android:id="@+id/etPostalCode"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+    </LinearLayout>
+
+
+    <!-- Phone number -->
+    <!-- ################################################################## -->
+    <LinearLayout
+        android:id="@+id/llPhoneNum"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/llPostalCode"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvPhoneNum"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/phone_number"/>
+
+        <EditText
+            android:id="@+id/etPhoneNum"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+    </LinearLayout>
+
+
+    <!-- URL -->
+    <!-- ################################################################## -->
+    <LinearLayout
+        android:id="@+id/llUrl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/llPhoneNum"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvUrl"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/url"/>
+
+        <EditText
+            android:id="@+id/etUrl"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+    </LinearLayout>
+</RelativeLayout>

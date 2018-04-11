@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context="sheron.csci4100u.labs.lab5.MainActivity">
+
+    <!-- When clicked, downloads data from text file and sends it to ShowLicense Activity -->
+    <TextView
+        android:id="@+id/tvShowLicense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:text="@string/show_license"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        android:onClick="showLicense"/>
+
+
+    <!-- Displays fake company title-->
+    <TextView
+        android:id="@+id/tvCompanyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:fontFamily="cursive"
+        android:text="@string/company_title"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:textSize="40sp"/>
+
+    <!-- Displays about info on fake company -->
+    <TextView
+        android:id="@+id/tvCompanyInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tvShowLicense"
+        android:layout_below="@id/tvCompanyName"
+        android:layout_margin="20dp"
+        android:fontFamily="casual"
+        android:text="@string/company_info"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"/>
+</RelativeLayout>

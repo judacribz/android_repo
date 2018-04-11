@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">A1</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="question">Question</string>
+    <string name="summary">Summary</string>
+    <string name="question_index_reset">Question index reset</string>
+</resources>

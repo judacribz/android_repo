@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sheron.csci4100u.labs.lab6.AddContact">
+
+
+    <!-- First Name label and text field -->
+    <!--####################################################################-->
+    <TextView
+        android:id="@+id/tvFirstName"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:labelFor="@+id/etFirstName"
+        android:text="@string/first_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@id/etFirstName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:inputType="text"
+        app:layout_constraintBaseline_toBaselineOf="@id/tvFirstName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <!-- Last Name label and text field -->
+    <!--####################################################################-->
+    <TextView
+        android:id="@+id/tvLastName"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:labelFor="@+id/etLastName"
+        android:text="@string/last_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvFirstName" />
+
+    <EditText
+        android:id="@id/etLastName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:inputType="text"
+        app:layout_constraintBaseline_toBaselineOf="@id/tvLastName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvFirstName" />
+
+
+    <!-- Phone Number label and text field -->
+    <!--####################################################################-->
+    <TextView
+        android:id="@+id/tvPhoneNum"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:labelFor="@+id/etPhoneNum"
+        android:text="@string/phone_number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvLastName" />
+
+    <EditText
+        android:id="@id/etPhoneNum"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:inputType="phone"
+        app:layout_constraintBaseline_toBaselineOf="@id/tvPhoneNum"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvLastName" />
+
+
+    <!-- Add contact button -->
+    <!--####################################################################-->
+    <Button
+        android:id="@+id/btnAddContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="song_titles">
+        <item>Dragon Ball Z Theme</item>
+        <item>Super Mario Invincible Starman</item>
+        <item>Metal Gear Solid Acid Theme</item>
+        <item>First Day In Mexico</item>
+    </string-array>
+</resources>

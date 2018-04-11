@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab7</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="contacts_file">contactData.txt</string>
+    <string name="student_id">Student ID:</string>
+    <string name="courseComponent">Course Component:</string>
+    <string name="mark">Mark:</string>
+    <string name="required">Required</string>
+</resources>

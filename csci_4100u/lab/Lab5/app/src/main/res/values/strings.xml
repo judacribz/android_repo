@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab5</string>
+    <string name="gnu_license_file">https://www.gnu.org/licenses/gpl.txt</string>
+    <string name="company_info">Over the past 140 years, Fericsson has been at the forefront of communications technology. Today, we are committed to maximizing customer value by continuously evolving our business portfolio and leading the ICT industry.</string>
+    <string name="show_license"><u>Show License</u></string>
+    <string name="close">Close</string>
+    <string name="company_title">Fony Fericsson</string>
+    <string name="license">License</string>
+</resources>

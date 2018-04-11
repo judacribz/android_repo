@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Greeting text -->
+    <TextView
+        android:id="@+id/tv_greeting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:padding="20dp"
+        android:text="@string/greeting_text" />
+
+    <!-- About button -->
+    <Button
+        android:id="@+id/b_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_greeting"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/about_button"/>
+
+    <!-- Login button to go to LoginActivity-->
+    <Button
+        android:id="@+id/b_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/b_about"
+        android:layout_alignStart="@id/b_about"
+        android:layout_alignEnd="@id/b_about"
+        android:layout_marginTop="20dp"
+        android:text="@string/login_button"/>
+</RelativeLayout>

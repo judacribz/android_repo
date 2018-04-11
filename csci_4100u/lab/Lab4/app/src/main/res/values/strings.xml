@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Lab4</string>
+    <string name="show_status_label">Show Status</string>
+    <string name="battery_status">"Battery Status"</string>
+
+    <!-- Battery charging status -->
+    <string name="battery_charging">Battery is charging</string>
+    <string name="battery_discharging">Battery is discharging\n</string>
+    <string name="battery_full">Battery is full\n</string>
+
+    <!-- Battery charge type -->
+    <string name="usb">(US)\n</string>
+    <string name="ac">(AC)\n</string>
+
+    <!-- Battery health msgs -->
+    <string name="battery_good">Battery health is good\n</string>
+    <string name="battery_cold">Battery is cold\n</string>
+    <string name="battery_dead">Battery is dead\n</string>
+    <string name="battery_over_voltage">Battery is over voltage\n</string>
+    <string name="battery_overheat">Battery is overheated\n</string>
+    <string name="battery_health_unknown">Battery health is unknown\n</string>
+    <string name="battery_unsp_failure">Battery failure(unspecified)\n</string>
+
+    <!-- Battery temperature -->
+    <string name="battery_temperature_is">Battery temperature is</string>
+</resources>
